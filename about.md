@@ -1,11 +1,12 @@
 ---
 layout: page
 title: "About"
-description: "你的博客描述 " 
+description: "A Photographer, Engineer and Gamer" 
 header-img: "img/green.jpg"
 ---
 
-这一页填写你的自我介绍。
+Photographer, Electronic design automation, Gamer
+Susthern University of Science and Technology, P.R.C
 
 
 
