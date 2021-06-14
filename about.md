@@ -8,6 +8,7 @@ header-img: "img/green.jpg"
 謝銳
 
 Photographer, Electronic design automation, Gamer  
+
 Southern University of Science and Technology, P.R.C  
 xierui0210@foxmail.com
 
