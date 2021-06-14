@@ -7,7 +7,7 @@ header-img: "img/green.jpg"
 # Rick Xie  
 謝銳
 
-Photographer, Electronic design automation, Gamer  
+Photographer, Electronic design automation, Gamer, IEEE Student Member  
 
 Southern University of Science and Technology, P.R.C  
 xierui0210@foxmail.com
