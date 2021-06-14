@@ -14,7 +14,7 @@ xierui0210@foxmail.com
 
 [![27PSc8.md.jpg](https://z3.ax1x.com/2021/06/14/27PSc8.md.jpg)](https://imgtu.com/i/27PSc8)
 
-[![2Thf7d.md.jpg](https://z3.ax1x.com/2021/06/14/2Thf7d.md.jpg)](https://imgtu.com/i/2Thf7d)
+[![2ThW0H.md.jpg](https://z3.ax1x.com/2021/06/14/2ThW0H.md.jpg)](https://imgtu.com/i/2ThW0H)
 
 
 
