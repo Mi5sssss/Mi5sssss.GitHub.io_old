@@ -1,10 +1,11 @@
 ---
 layout: page
 title: "About"
-description: "Rick Xie  
-A Photographer, Engineer and Gamer" 
+description: "A Photographer, Engineer and Gamer" 
 header-img: "img/green.jpg"
 ---
+# Rick Xie  
+謝銳
 
 Photographer, Electronic design automation, Gamer  
 Southern University of Science and Technology, P.R.C
