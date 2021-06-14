@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Rick Xie"
-description: "A Photographer, Engineer and Gamer" 
+title: "About"
+description: "Rick Xie\nA Photographer, Engineer and Gamer" 
 header-img: "img/green.jpg"
 ---
 
