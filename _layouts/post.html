@@ -88,7 +88,23 @@ layout: default
                 </div>
                 <!-- Duoshuo Share end-->
 
-
+				<!-- Gitalk start -->
+				<div id="gitalk-container"></div> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+				<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> 
+				<script>
+					var gitalk  = new Gitalk ({
+						id: window.location.pathname,   // Ensure uniqueness and length less than 50
+						clientID: '{ {site.comment_gitalk_clientId} }',
+						clientSecret: '{ {site.comment_gitalk_clientSecret} }',
+						repo: '{ {site.comment_gitalk_repo} }',
+						owner: '{ {site.github_username} }',
+						admin: ['{ {site.github_username} }'],
+							distractionFreeMode: false  // Facebook-like distraction free mode
+					})
+					gitalk.render('gitalk-container')
+				</script> 
+				<!-- Gitalk end -->
+				
                 <!-- 多说评论框 start -->
                 <div class="comment">
                     <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
@@ -129,22 +145,7 @@ var duoshuoQuery = {short_name:"cnfeat"};
 
 
 
-<!-- Gitalk start -->
-<div id="gitalk-container"></div> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> 
-<script>
-    var gitalk  = new Gitalk ({
-        id: window.location.pathname,   // Ensure uniqueness and length less than 50
-        clientID: '{ {site.comment_gitalk_clientId} }',
-        clientSecret: '{ {site.comment_gitalk_clientSecret} }',
-        repo: '{ {site.comment_gitalk_repo} }',
-        owner: '{ {site.github_username} }',
-        admin: ['{ {site.github_username} }'],
-		    distractionFreeMode: false  // Facebook-like distraction free mode
-    })
-    gitalk.render('gitalk-container')
-</script> 
-<!-- Gitalk end -->
+
 
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
