@@ -95,11 +95,11 @@ layout: default
 					var gitalk = new Gitalk({
 				
 					// gitalk的主要参数
-						clientID: 'comment_gitalk_clientId',
-						clientSecret: 'comment_gitalk_clientSecret',
-						repo: 'comment_gitalk_repo',
-						owner: 'github_username',
-						admin: ['github_username'],
+						clientID: 'site.comment_gitalk_clientId',
+						clientSecret: 'site.comment_gitalk_clientSecret',
+						repo: 'site.comment_gitalk_repo',
+						owner: 'site.github_username',
+						admin: ['site.github_username'],
 						id:decodeURI(window.location.pathname),
 				
 					});
