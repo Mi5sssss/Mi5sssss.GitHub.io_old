@@ -9,7 +9,7 @@ url: "http://rickxie.xyz"  # 此处填写你的博客地址
 
 # Gitalk settings
 comment_gitalk_clientId: a576c74f3fd856e620fc
-comment_gitalk_clientSecret: 914a02a29e2bb5857f09242d6c5ae6813781138c
+comment_gitalk_clientSecret: 39d3ef2cd56d86653328bd43b0ae29b204ddd4df
 comment_gitalk_repo: Mi5sssss.GitHub.io
 github_username: Mi5sssss
 
