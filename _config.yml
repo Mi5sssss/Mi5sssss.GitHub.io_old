@@ -7,11 +7,13 @@ description: "Photographer, Electronic design automation"  # 一句话描述你�
 baseurl: ""
 url: "http://rickxie.xyz"  # 此处填写你的博客地址 
 
+
 # Gitalk settings
 comment_gitalk_clientId: a576c74f3fd856e620fc
 comment_gitalk_clientSecret: 0d9e5f16fd3e35cbabc5ad2ef51df39f17fa83e8
 comment_gitalk_repo: Mi5sssss.GitHub.io
 github_username: Mi5sssss
+
 
 # About/contact
 owner: 
@@ -20,8 +22,8 @@ owner:
   bio: "Photographer, Electronic design automation" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
-favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+gavatar: img/rick.jpg # 浏览器地址栏小图标，可自定义更改
+favicon: img/rick.jpg # 浏览器地址栏小图标，可自定义更改
 
 douban_username: xierui1841
 twitter_username: 
@@ -51,7 +53,7 @@ defaults:
     values:
       layout: "post"
       author: "Rick Xie" # 你的名字
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/green.jpg" # We don't want posts without a header image, that would mean white on white
 
 
 # Comments 
