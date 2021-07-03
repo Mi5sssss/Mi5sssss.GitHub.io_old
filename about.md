@@ -14,6 +14,7 @@ xierui0210@foxmail.com
 > Bachelor of Engineering in Microelectornics Science and Engineering  
 >Southern University of Science and Technology  
 
+***
 
 # RESEARCH
 ## EDA (Electronic design automation) Circuit Simulation
@@ -22,6 +23,8 @@ xierui0210@foxmail.com
 
 2. Multi-physics field analysis combined with neural networks for electro-thermal simulation  
 
+***
+
 # PROJECT
 1. Bilinear Interpolation based demosaicing alogorithm improvement and FPGA application (Verilog)  
 
@@ -29,6 +32,7 @@ xierui0210@foxmail.com
 
 3. TPU (Tensor Process Units) development based on risc-v instruction set and Chisel language (Verilog, Scala, Chisel)  
 
+***
 
 # Technical Skills, Language Skills, Interests
 ## Programming Languages
