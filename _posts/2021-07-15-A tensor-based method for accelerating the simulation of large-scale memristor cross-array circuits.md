@@ -7,6 +7,8 @@ tags: [Research, EDA, Algorithm]
 description: A quick solution to specific matrix in MCA.
 ---
 
+![2021-07-15-A tensor-based method for accelerating the simulation of large-scale memristor cross-array circuits](https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/20210715/2021-07-15-A tensor-based method for accelerating the simulation of large-scale memristor cross-array circuits.6qw7kn29nvc0.png)
+
 # *1* Introduction
 
 ​	Existing cross-array simulators, such as MNSIM, mainly skip the SPICE-level circuit simulation and use highly simplified behavioral-level models to simulate the characteristics of memristors and crossbar arrays. It essentially increases the simulation speed by sacrificing accuracy, and thus does not guarantee simulation accuracy and makes it difficult to perform design optimization for complex practical applications. Therefore, the main objective of this essay is to develop dedicated circuit simulation acceleration techniques and tools for the characteristics of **MCA** (Memristor Crossbar Array) using tensor-based technology to improve the simulation efficiency by one order of magnitude, and to realize the design and optimization of memristor neural networks based on circuit simulation. Specifically, we hope to make full use of the special topology of the memristor array and build a corresponding preconditioner based on the tensor to accelerate the core iterative linear system solution process in the simulation process and achieve the optimal balance of simulation speed and accuracy.
