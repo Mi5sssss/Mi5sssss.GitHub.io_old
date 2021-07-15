@@ -50,13 +50,13 @@ $$
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![clip_image026](https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/2021-07-15-A-tensor-based-method-for-accelerating-the-simulation-of-large-scale-memristor-cross-array-circuits/clip_image026.u4zo6aw5te8.gif)  (c) | ![clip_image028](https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/2021-07-15-A-tensor-based-method-for-accelerating-the-simulation-of-large-scale-memristor-cross-array-circuits/clip_image028.5xz5ezl7mtw0.gif)  (d) |
 
-`Fig. 2. (a) The general MCA with wire resistance concerned, forming $N*N$ dimension crossbar structure. (b) The division of memristor.  (c) A division of row wire resistance, which can be represented as $G_r$. (d) A division of column wire resistance, which can be represented as $G_c$.` 
+Fig. 2. (a) The general MCA with wire resistance concerned, forming $N*N$ dimension crossbar structure. (b) The division of memristor.  (c) A division of row wire resistance, which can be represented as $G_r$. (d) A division of column wire resistance, which can be represented as $G_c$. 
 
 
 
 ​	We give our model by the following MNA (Modified Nodal Analysis) equation:
 $$
-G_t*V_t+I_t(V_t,V_b)-Y_t=0,
+G_t*V_t+I_t(V_t,V_b)-Y_t=0
 $$
 
 $$
@@ -75,7 +75,7 @@ G=\left[\begin{matrix}\begin{matrix}2g&-g\\-g&2g\\\end{matrix}&\cdots&0\\\vdots&
 $$
 Additionally,
 $$
-G_t=I\bigotimes G,
+G_t=I\bigotimes G
 $$
 
 $$
@@ -90,7 +90,7 @@ where $G_t$ and $G_b$ are quasi-tri-diagonal matrix.
 
 ​	Since both layer’s nodal voltage in **MCA** will affect the memristor respectively, it is a non-linear relationship, so we couple the two equations. Combining the two equations into one matrix better for machine solving. A coupled matrix equation is proposed here:
 $$
-F=\ \left[\begin{matrix}G_t&0\\0&G_b\\\end{matrix}\right]*\ \left[\begin{matrix}V_t\\V_b\\\end{matrix}\right]+ \left[\begin{matrix}I_t\\{-I}_b\\\end{matrix}\right]- \left[\begin{matrix}Y_t\\Y_b\\\end{matrix}\right].
+F=\ \left[\begin{matrix}G_t&0\\0&G_b\\\end{matrix}\right]*\ \left[\begin{matrix}V_t\\V_b\\\end{matrix}\right]+ \left[\begin{matrix}I_t\\{-I}_b\\\end{matrix}\right]- \left[\begin{matrix}Y_t\\Y_b\\\end{matrix}\right]
 $$
 To approach the result of equation
 $$
@@ -98,44 +98,44 @@ F=0
 $$
 Newton-Raphson method is applied, in every iteration:
 $$
-\vec{V_{n+1}}=\vec{V_n}- F\left(\vec{V}\right)/J\left(\vec{V}\right).
+\vec{V_{n+1}}=\vec{V_n}- F\left(\vec{V}\right)/J\left(\vec{V}\right)
 $$
 The Jacobian matrix of $F$ and $F'$ 
 $$
-F^\prime=\left[\begin{matrix}G_t&0\\0&G_b\\\end{matrix}\right]+\left[\begin{matrix}\frac{\partial I_t}{\partial V_t}&\frac{\partial I_t}{\partial V_b}\\\frac{-\partial I_b}{\partial V_t}&\frac{-\partial I_b}{\partial V_b}\\\end{matrix}\right]=J.
+F^\prime=\left[\begin{matrix}G_t&0\\0&G_b\\\end{matrix}\right]+\left[\begin{matrix}\frac{\partial I_t}{\partial V_t}&\frac{\partial I_t}{\partial V_b}\\\frac{-\partial I_b}{\partial V_t}&\frac{-\partial I_b}{\partial V_b}\\\end{matrix}\right]=J
 $$
 Then,
 $$
-J=\ \left[\begin{matrix}G_t+\frac{\partial I_t}{\partial V_t}&\frac{\partial I_t}{\partial V_b}\\\frac{-\partial I_b}{\partial V_t}&G_b+\frac{-\partial I_b}{\partial V_b}\\\end{matrix}\right].
+J=\ \left[\begin{matrix}G_t+\frac{\partial I_t}{\partial V_t}&\frac{\partial I_t}{\partial V_b}\\\frac{-\partial I_b}{\partial V_t}&G_b+\frac{-\partial I_b}{\partial V_b}\\\end{matrix}\right]
 $$
 Hence the equation becomes to:
 $$
-\vec{V_{n+1}}-\vec{V_n}=\ J^{-1}\left(\vec{V_n}\right)\ast\left(-F\left(\vec{V_n}\right)\right).
+\vec{V_{n+1}}-\vec{V_n}=\ J^{-1}\left(\vec{V_n}\right)\ast\left(-F\left(\vec{V_n}\right)\right)
 $$
 Further get:
 $$
-\ J\left(\vec{V_n}\right)\ast\left(\vec{V_{n+1}}-\vec{V_n}\right)=\left(-F\left(\vec{V_n}\right)\right).
+\ J\left(\vec{V_n}\right)\ast\left(\vec{V_{n+1}}-\vec{V_n}\right)=\left(-F\left(\vec{V_n}\right)\right)
 $$
 ​	In this function, to show more intuitively in every step of iteration, we make the simplification of the following symbols:
 $$
-A=J\left(\vec{V_n}\right),
+A=J\left(\vec{V_n}\right)
 $$
 
 $$
-x=\left(\vec{V_{n+1}}-\vec{V_n}\right),
+x=\left(\vec{V_{n+1}}-\vec{V_n}\right)
 $$
 
 $$
-b=\left(-F\left(\vec{V_n}\right)\right).
+b=\left(-F\left(\vec{V_n}\right)\right)
 $$
 
 ​	The equation of our primary concern has been transformed into:
 $$
-Ax=b.
+Ax=b
 $$
 ![clip_image120](https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/2021-07-15-A-tensor-based-method-for-accelerating-the-simulation-of-large-scale-memristor-cross-array-circuits/clip_image120.7f1cod8o2hg0.gif)
 
 
 
-`Fig. 3. Schematic diagram of the shape of matrix $A$ when $n=8$.  It should be noted that the dimension of the matrix here is $\left(2\ast n^2\right)\ast\left(2\ast n^2\right)$.`
+Fig. 3. Schematic diagram of the shape of matrix $A$ when $n=8$.  It should be noted that the dimension of the matrix here is $\left(2\ast n^2\right)\ast\left(2\ast n^2\right)$.
 
