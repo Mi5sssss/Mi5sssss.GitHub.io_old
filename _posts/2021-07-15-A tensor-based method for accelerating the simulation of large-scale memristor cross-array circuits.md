@@ -7,6 +7,8 @@ tags: [Research, EDA, Algorithm]
 description: A quick solution to specific matrix in MCA.
 ---
 
+`Some technical trouble was found in displaying formula.`
+
 ![2021-07-15-A tensor-based method for accelerating the simulation of large-scale memristor cross-array circuits](https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/20210715/2021-07-15-A tensor-based method for accelerating the simulation of large-scale memristor cross-array circuits.6qw7kn29nvc0.png)
 
 # *1* Introduction
