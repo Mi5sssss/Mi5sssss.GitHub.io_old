@@ -5,27 +5,42 @@ description: "A Photographer, Engineer and Gamer"
 header-img: "img/green.jpg"
 ---
 # Rick Xie  
-## 謝銳
+謝銳
 
-Photographer, Electronic design automation, Gamer, IEEE Student Member  
+**Engineer, Photographer, Gamer** 
 
-Southern University of Science and Technology, P.R.C  
+**IEEE Student Member**
+
+Electronic design automation
+
+---
+
 xierui0210@foxmail.com  
+
+xr@ieee.org
+
 > Bachelor of Engineering in Microelectornics Science and Engineering  
 >Southern University of Science and Technology  
 
 ***
 
-# RESEARCH
-## EDA (Electronic design automation) Circuit Simulation
+# Research Interest
+## EDA Circuit Simulation
+
+*Electronic design automation*
 
 1. Tensor-based acceleration simulation of large-scale memristor crossbar (MCA) circuit  
+2. AI-based prediction of electric-heating simulation model 
 
-2. Multi-physics field analysis combined with neural networks for electro-thermal simulation  
+## Memristor-based Artificial Neural Network
 
-***
+*Currently studying and have ideas for further exploration.*
 
-# PROJECT
+1. Neural dynamics of spiking neural network and corresponding circuit realization
+2. Cellular Neural Network
+
+# Project
+
 1. Bilinear Interpolation based demosaicing alogorithm improvement and FPGA application (Verilog)  
 
 2. Sobel operator edge detection FPGA based on ARM architecture (Verilog, C)  
@@ -44,18 +59,6 @@ Cadence, Quatus, Modelsim
 ## Languages
 English, Mandarin, Cantonese  
 
-
 [![27PSc8.md.jpg](https://z3.ax1x.com/2021/06/14/27PSc8.md.jpg)](https://imgtu.com/i/27PSc8)
 
-[![2ThW0H.md.jpg](https://z3.ax1x.com/2021/06/14/2ThW0H.md.jpg)](https://imgtu.com/i/2ThW0H)
-
-[![RkGmC9.md.jpg](https://z3.ax1x.com/2021/06/20/RkGmC9.md.jpg)](https://imgtu.com/i/RkGmC9)
-
-[![RkGZ4J.md.jpg](https://z3.ax1x.com/2021/06/20/RkGZ4J.md.jpg)](https://imgtu.com/i/RkGZ4J)
-
-[![RkG9cq.md.jpg](https://z3.ax1x.com/2021/06/20/RkG9cq.md.jpg)](https://imgtu.com/i/RkG9cq)
-
-
-
-
-
+[![2ThW0H.md.jpg](https://z3.ax1x.com/2021/06/14/2ThW0H.md.jpg)
