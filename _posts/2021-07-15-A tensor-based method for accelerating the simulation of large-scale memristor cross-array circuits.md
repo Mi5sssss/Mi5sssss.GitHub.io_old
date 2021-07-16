@@ -27,7 +27,7 @@ description: A quick solution to specific matrix in MCA.
 
 ​	A voltage-controlled extended memristor is illustrated by the following equation:
 
-![](https://latex.codecogs.com/svg.image?2&plus;2=3*x*%5Cfrac%7B4%7D%7B2%7D)
+![](https://latex.codecogs.com/svg.image?2&plus;2=3*x*%5Cfrac%7B4%7D%7B2%7D)， ![](https://latex.codecogs.com/svg.image?2&plus;2=3)
 $$
 i=G\left(x,v\right)v
 $$
