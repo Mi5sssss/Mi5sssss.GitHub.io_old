@@ -26,6 +26,8 @@ description: A quick solution to specific matrix in MCA.
 `Fig. 1. A general MCA is shown with BL (bit line) and WL (word line).`
 
 ​	A voltage-controlled extended memristor is illustrated by the following equation:
+
+![](https://latex.codecogs.com/svg.image?2&plus;2=3*x*%5Cfrac%7B4%7D%7B2%7D)
 $$
 i=G\left(x,v\right)v
 $$
