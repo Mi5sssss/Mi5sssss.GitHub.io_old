@@ -4,7 +4,7 @@ title: "About"
 description: "A Photographer, Engineer and Gamer" 
 header-img: "img/green.jpg"
 ---
-# Rick Xie  
+# Rick Rui Xie  
 謝銳
 
 **Engineer, Photographer, Gamer** 
