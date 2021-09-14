@@ -5,8 +5,6 @@ description: "A Photographer, Engineer and Gamer"
 header-img: "img/green.jpg"
 ---
 # Rick Rui Xie  
-謝銳
-
 **Engineer, Photographer, Gamer** 
 
 **IEEE Student Member**
@@ -17,7 +15,8 @@ EDA (Electronic design automation), Neuromorphic Computing, VLSI Design
 
 Email: xier2018@mail.sustech.edu.cn  
 
-​			xr@ieee.org
+xr@ieee.org
+
 Southern University of Science and Technology  
 
 ***
@@ -29,7 +28,7 @@ Southern University of Science and Technology
 
 1. Exploited the structural regularity of MCAs to develop a specially-crafted preconditioner;
 2. Designed the process of inverse and application to vectors that can be eciently evaluated by Kronecker product and
-  block matrix inversion formula;
+    block matrix inversion formula;
 3. Experimentalized the numerical test of the specic band matrices;
 4. Obtain a Fund of 10,000 CHY and won the third prize of 2021 School of Microelectronics Innovation Competition.
 
@@ -41,7 +40,7 @@ Southern University of Science and Technology
 **RRAM (Resistive RAM) Non-Ideal Simulation:**
 
 1. Design the multiply-add method of specic RRAM through open source RRAM simulation tool CROSSSIM from
-  Sandia National Lab;
+    Sandia National Lab;
 2. Develop the reading and writing control of simulation by amended model of Guass White Noise model.
 
 ***
