@@ -15,7 +15,7 @@ Electronic design automation
 
 ---
 
-xierui0210@foxmail.com  
+xier2018@mail.sustech.edu.cn  
 
 xr@ieee.org
 
