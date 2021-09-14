@@ -39,8 +39,7 @@ Southern University of Science and Technology
 
 **RRAM (Resistive RAM) Non-Ideal Simulation:**
 
-1. Design the multiply-add method of specic RRAM through open source RRAM simulation tool CROSSSIM from
-    Sandia National Lab;
+1. Design the multiply-add method of specific RRAM through open source RRAM simulation tool CROSSSIM from Sandia National Lab;
 2. Develop the reading and writing control of simulation by amended model of Guass White Noise model.
 
 ***
@@ -48,7 +47,6 @@ Southern University of Science and Technology
 # Projects
 
 - An optimization algorithm for demosaicing using DE-1 FPGA and camera with LCD screen display
-
 - SOBEL operator edge detection on FPGA based on ARM architecture
 - TPU development based on RISC-V and Chisel based on Scala
 - Campus Bus Travel Time Prediction Based on LSTM and Big Data Techniques
