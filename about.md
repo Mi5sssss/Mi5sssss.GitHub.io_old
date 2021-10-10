@@ -4,18 +4,20 @@ title: "About"
 description: "A Photographer, Engineer and Gamer" 
 header-img: "img/green.jpg"
 ---
-# Rick Rui Xie  [CV](xie_cv.pdf) 
+# Rick Rui Xie  
 **Engineer, Photographer, Gamer**  
+
+[My CV](xie_cv.pdf) 
 
 **IEEE Student Member**
 
-EDA (Electronic design automation), Neuromorphic Computing, VLSI Design
-
-
+EDA (Electronic design automation), Neuromorphic Computing, VLSI Design, Memristor
 
 ---
 
-Email: xier2018@mail.sustech.edu.cn  
+**Email:**
+
+xier2018@mail.sustech.edu.cn  
 
 xr@ieee.org
 
@@ -29,9 +31,9 @@ Southern University of Science and Technology
 **Steady-State Memristor Crossbar Array (MCA) Circuit Simulation:**
 
 1. Exploited the structural regularity of MCAs to develop a specially-crafted preconditioner;
-2. Designed the process of inverse and application to vectors that can be eciently evaluated by Kronecker product and
+2. Designed the process of inverse and application to vectors that can be effciently evaluated by Kronecker product and
     block matrix inversion formula;
-3. Experimentalized the numerical test of the specic band matrices;
+3. Experimentalized the numerical test of the specific band matrices;
 4. Obtain a Fund of 10,000 CHY and won the third prize of 2021 School of Microelectronics Innovation Competition.
 
 **Surrogate Modeling of Electro-Thermal Simulation:**
@@ -41,8 +43,8 @@ Southern University of Science and Technology
 
 **RRAM (Resistive RAM) Non-Ideal Simulation:**
 
-1. Design the multiply-add method of specific RRAM through open source RRAM simulation tool CROSSSIM from Sandia National Lab;
-2. Develop the reading and writing control of simulation by amended model of Guass White Noise model.
+1. Design the multiply-add method of specific RRAM through open source RRAM simulation tool CROSSSIM from Sandia National Lab;
+2. Develop the reading and writing control of simulation by amended model of Gaussian White Noise model.
 
 ***
 
@@ -58,11 +60,11 @@ Southern University of Science and Technology
 
 # Publications
 
-1. A Fast Method for Steady-State Memristor Crossbar Array Circuit Simulation (ICTA 2021): **Rui Xie**, Mingyang Song, Junzhuo Zhou, Jie Mei, Quan Chen(Corresponding Author)
+1. **Rui Xie**, Mingyang Song, Junzhuo Zhou, Jie Mei, Quan Chen(Corresponding Author), *A Fast Method for Steady-State Memristor Crossbar Array Circuit Simulation*, IEEE ICTA 2021
 
 # Patents
 
-1. Construction and optimization of neural networks for memristor arrays based on circuit simulation (Pending), CN 202110673101.5: Quan Chen, Dayi Fan, **Rui Xie**, Mingyang Song
+1. Quan Chen, Dayi Fan, **Rui Xie**, Mingyang Song, Construction and optimization of neural networks for memristor arrays based on circuit simulation (Pending), CN 202110673101.5
 
 # Technical Skills, Language Skills, Interests
 
