@@ -11,8 +11,6 @@ header-img: "img/green.jpg"
 
 [Google Scholar]: https://scholar.google.com/citations?user=kFFMzkQAAAAJ&amp;hl=en
 
-**IEEE Student Member**
-
 EDA (Electronic design automation), Neuromorphic Computing, VLSI Design, Memristor
 
 ---
