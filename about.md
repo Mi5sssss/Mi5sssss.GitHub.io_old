@@ -4,14 +4,14 @@ title: "About"
 description: "A Photographer, Engineer and Gamer" 
 header-img: "img/green.jpg"
 ---
-# Rick Rui Xie  
-**Engineer, Photographer, Gamer** 
+# Rick Rui Xie  [CV](xie_cv.pdf) 
+**Engineer, Photographer, Gamer**  
 
 **IEEE Student Member**
 
 EDA (Electronic design automation), Neuromorphic Computing, VLSI Design
 
- [xie_cv.pdf](xie_cv.pdf) 
+
 
 ---
 
