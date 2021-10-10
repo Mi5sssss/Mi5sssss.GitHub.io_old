@@ -9,6 +9,8 @@ header-img: "img/green.jpg"
 
 [My CV](xie_cv.pdf) 
 
+[Google Scholar]: https://scholar.google.com/citations?user=kFFMzkQAAAAJ&amp;hl=en
+
 **IEEE Student Member**
 
 EDA (Electronic design automation), Neuromorphic Computing, VLSI Design, Memristor
