@@ -7,7 +7,7 @@ header-img: "img/green.jpg"
 # Rick Rui Xie  
 **Engineer, Photographer, Gamer**  
 
-[My CV](doc\xie_cv.pdf) 
+[My CV](doc/xie_cv.pdf) 
 
 [Google Scholar]( https://scholar.google.com/citations?user=kFFMzkQAAAAJ&amp;amp;hl=en)
 
