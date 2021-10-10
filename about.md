@@ -11,6 +11,8 @@ header-img: "img/green.jpg"
 
 EDA (Electronic design automation), Neuromorphic Computing, VLSI Design
 
+ [xie_cv.pdf](xie_cv.pdf) 
+
 ---
 
 Email: xier2018@mail.sustech.edu.cn  
