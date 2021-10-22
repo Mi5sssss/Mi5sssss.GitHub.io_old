@@ -1,12 +1,11 @@
 title: dash
-author: GitHub User
-email: miguel-gonzalez@gmx.de
+author: Rui Rick Xie
+email: xier2018@mail.sustech.edu.cn
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 show_excerpts: false # set to true to show excerpts on the homepage
-
 paginate: 1
 paginate_path: "/blog/page:num/"
 
@@ -33,7 +32,7 @@ dash:
     - url: https://bitbrain.itch.io
       icon: itch-io
       color: red
-    - url: https://github.com/bitbrain
+    - url: http://rickxie.xyz
       icon: github-square
       color: purple
 
@@ -56,8 +55,8 @@ dash:
 theme: jekyll-dash
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-paginate
- - liquid-md5
- - jekyll/tagging
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - liquid-md5
+  - jekyll/tagging
