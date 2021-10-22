@@ -1,73 +1,57 @@
-# Site settings
-title: Rui Rick Xie
-# 你的博客名字，可以定义修订
-header-img: "img/facebook.jpg"
-tagline: "cn"  
-description: "Photographer, Electronic design automation"  # 一句话描述你的博客
-baseurl: ""
-url: "http://rickxie.xyz"  # 此处填写你的博客地址 
+title: bitbrain
+url: https://bitbrain.github.io
+author: bitbrain
+email: miguel-gonzalez@gmx.de
+description: > # this means to ignore newlines until "show_exerpts:"
+  Miguel is a software engineer and indie game developer currently based in the UK.
+  <br/>He occasionally blogs about software design, continuous integration and game development with Godot Engine.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: bitbrain-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://soundcloud.com/myrealityde
+      icon: soundcloud
+      color: orange
+    - url: https://twitter.com/bitbrain_
+      icon: twitter-square
+      color: cyan
+    - url: https://bitbrain.itch.io
+      icon: itch-io
+      color: red
+    - url: https://www.twitch.tv/bitbrain_
+      icon: twitch
+      color: purple
+    - url: https://www.youtube.com/channel/UCZDjQltHRNiXIYXMBeLDleA
+      icon: youtube
+      color: red
+    - url: https://github.com/bitbrain
+      icon: github-square
+      color: yellow
+      
+  avatar_source: local
+  avatar_path: /public/avatar.gif
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+  - liquid-md5
+  - jekyll/tagging
 
 
-# Gitalk settings
-comment_gitalk_clientId: a576c74f3fd856e620fc
-comment_gitalk_clientSecret: 0d9e5f16fd3e35cbabc5ad2ef51df39f17fa83e8
-comment_gitalk_repo: Mi5sssss.GitHub.io
-github_username: Mi5sssss
-
-
-# About/contact
-owner: 
-  name: "Rick Xie" # 填写作者信息：名字
-  email: xierui1841@foxmail.com # 填写作者信息：邮箱
-  bio: "Photographer, Electronic design automation" # 填写作者信息：博客描述
-
-# Data
-gavatar: img/rick.jpg # 浏览器地址栏小图标，可自定义更改
-favicon: img/rick.jpg # 浏览器地址栏小图标，可自定义更改
-
-douban_username: xierui1841
-twitter_username: 
-github_username: Mi5sssss
-facebook_username: 
-weibo_username: Mi5sssss
-zhihu_username: 
-
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
-
-# Defaults for posts
-defaults:
-  -
-    scope: 
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Rick Xie" # 你的名字
-      header-img: "img/green.jpg" # We don't want posts without a header image, that would mean white on white
-
-
-# Comments 
-comments :
-  provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
-  duoshuo :
-    short_name :  # 填写你的 disqus id
-  disqus :
-      short_name :  # 填写你的 disqus id
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:  # 填写你  google_analytics id
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in footer navigation
