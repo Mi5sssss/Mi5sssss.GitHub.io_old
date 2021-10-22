@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html class="{% if site.dash.rtl %}direction--rtl{% else %}direction--ltr{% endif %}"lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
 
-  {%- include head.html -%}
+{% include head.html %}
 
-  <body>
 
-    {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
 
-    {%- include footer.html -%}
-    <script>
-      window.FontAwesomeConfig = {
-        searchPseudoElements: true
-      }
-    </script>
-  </body>
+
+<body ontouchstart="">
+
+    {% include nav.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+</body>
 
 </html>
