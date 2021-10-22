@@ -13,6 +13,8 @@ header-img: "img/green.jpg"
 
 EDA (Electronic design automation), Neuromorphic Computing, VLSI Design, Memristor
 
+
+
 ---
 
 **Email:**
@@ -80,4 +82,4 @@ Virtuoso, Quartus, ModelSim, Icepack, Silvaco, LTSPICE, Comsol, SolidWorks, Auto
 
 English, Mandarin, Cantonese
 
-![xie2021](https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/RRAM-Simulation/xie2021.iplwdpc3fjk.jpg)
+<img src="https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/RRAM-Simulation/xie2021.iplwdpc3fjk.jpg" alt="xie2021" style="zoom:15%;" />
