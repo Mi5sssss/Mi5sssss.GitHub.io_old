@@ -1,6 +1,7 @@
 ---
 layout: page
-description: Blog
+title: "Blog"
+description: "This is articles"
 ---
 
 
