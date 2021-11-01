@@ -11,10 +11,9 @@ header-img: "img/green.jpg"
 
 [Google Scholar]( https://scholar.google.com/citations?user=kFFMzkQAAAAJ&amp;amp;hl=en)
 
-| I show interests in EDA (Electronic design automation), Neuromorphic Computing, VLSI Design and Computer Architecture. | <img src="https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/RRAM-Simulation/xie2021.iplwdpc3fjk.jpg" alt="xie2021" style="zoom:15%;" /> |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+I show interests in EDA (Electronic design automation), Neuromorphic Computing, VLSI Design and Computer Architecture.
 
-
+<img src="https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/RRAM-Simulation/xie2021.iplwdpc3fjk.jpg" alt="xie2021" style="zoom:10%;" />
 
 ---
 
@@ -63,11 +62,11 @@ Southern University of Science and Technology
 
 # Publications
 
-1. **Rui Xie**, Mingyang Song, Junzhuo Zhou, Jie Mei, Quan Chen(Corresponding Author), *A Fast Method for Steady-State Memristor Crossbar Array Circuit Simulation*, IEEE ICTA 2021
+1. **<u>Rui Xie</u>**, Mingyang Song, Junzhuo Zhou, Jie Mei, Quan Chen(Corresponding Author), *A Fast Method for Steady-State Memristor Crossbar Array Circuit Simulation*, IEEE ICTA 2021
 
 # Patents
 
-1. Quan Chen, Dayi Fan, **Rui Xie**, Mingyang Song, Construction and optimization of neural networks for memristor arrays based on circuit simulation (Pending), CN 202110673101.5
+1. Quan Chen, Dayi Fan, **<u>Rui Xie</u>**, Mingyang Song, Construction and optimization of neural networks for memristor arrays based on circuit simulation (Pending), CN 202110673101.5
 
 # Technical Skills, Language Skills, Interests
 
