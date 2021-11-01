@@ -13,8 +13,6 @@ header-img: "img/green.jpg"
 
 EDA (Electronic design automation), Neuromorphic Computing, VLSI Design, Memristor
 
-
-
 ---
 
 **Email:**
