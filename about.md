@@ -35,7 +35,7 @@ Southern University of Science and Technology
 1. Exploited the structural regularity of MCAs to develop a specially-crafted preconditioner;
 2. Designed the process of inverse and application to vectors that can be effciently evaluated by Kronecker product and
     block matrix inversion formula;
-3. Experimentalized the numerical test of the specific band matrices;
+3. Experimentalized the numerical test of the specific band matrices;
 4. Obtain a Fund of 10,000 CHY and won the third prize of 2021 School of Microelectronics Innovation Competition.
 
 **Surrogate Modeling of Electro-Thermal Simulation:**
