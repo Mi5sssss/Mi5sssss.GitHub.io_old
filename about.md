@@ -11,7 +11,10 @@ header-img: "img/green.jpg"
 
 [Google Scholar]( https://scholar.google.com/citations?user=kFFMzkQAAAAJ&amp;amp;hl=en)
 
-EDA (Electronic design automation), Neuromorphic Computing, VLSI Design, Memristor
+| I show interests in EDA (Electronic design automation), Neuromorphic Computing, VLSI Design and Computer Architecture. | <img src="https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/RRAM-Simulation/xie2021.iplwdpc3fjk.jpg" alt="xie2021" style="zoom:15%;" /> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+
 
 ---
 
@@ -79,5 +82,3 @@ Virtuoso, Quartus, ModelSim, Icepack, Silvaco, LTSPICE, Comsol, SolidWorks, Auto
 **Languages**
 
 English, Mandarin, Cantonese
-
-<img src="https://cdn.jsdelivr.net/gh/Mi5sssss/blog_image@main/RRAM-Simulation/xie2021.iplwdpc3fjk.jpg" alt="xie2021" style="zoom:15%;" />
