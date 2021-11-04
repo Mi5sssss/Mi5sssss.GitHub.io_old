@@ -5,7 +5,10 @@ description: "文章归档"
 header-img: "img/orange.jpg"
 ---
 
+123456789test
+
 {% for post in paginator.posts %}
+
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            
@@ -56,4 +59,3 @@ header-img: "img/orange.jpg"
   </li>
 {% endfor %}
 </ul>
-
