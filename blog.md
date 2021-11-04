@@ -2,7 +2,7 @@
 layout: page
 title: "Blog"
 description: "Ideas and Writings"
-header-img: "img/Twitter.jpg"
+header-img: "img/twitter.jpg"
 ---
 
 
