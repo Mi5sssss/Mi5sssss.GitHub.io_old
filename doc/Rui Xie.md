@@ -28,6 +28,14 @@ xr@ieee.org
 
 ***
 
+**News**
+
+- Currently do Neural Architecture Search research with [<u>Dr. Ngai Wong</u>]( https://www.eee.hku.hk/~nwong/)  of HKU.
+- A paper was accepted by [<u>IEEE ICTA 2021</u>](http://www.ieee-icta.net/).
+- Submitted a patent.
+
+---
+
 **My current work**
 
 The acceleration of large Memristor Crossbar Arrays (MCAs) is important for the SPICE of crossbar structure. We have built a preconditioner for the existing architecture through Modified Nodal Analysis Equations.
