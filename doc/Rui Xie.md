@@ -2,7 +2,7 @@
 
 I am currently a senior student from [<u>School of Microelectronics</u>]( https://sme.sustech.edu.cn/en/) in [<u>Southern University of Science and Technology</u>]( https://www.sustech.edu.cn/en/), expected obtain the baccalaureate in June 2022. I show great interests in EDA (Electronic design automation), Neuromorphic Computing, VLSI Design and Computer Architecture. My undergraduate supervisor is [<u>Dr. Quan Chen</u>]( https://faculty.sustech.edu.cn/chenq3/en/).
 
-I will start my PhD journey in  [<u>the University of Hong Kong</u>]( https://www.hku.hk/) under the supervision of [<u>Prof. Ngai Wong</u>]( https://www.eee.hku.hk/~nwong/).
+<!-- I will start my PhD journey in  [<u>the University of Hong Kong</u>]( https://www.hku.hk/) under the supervision of [<u>Prof. Ngai Wong</u>]( https://www.eee.hku.hk/~nwong/). -->
 
 Here is <u>[My CV](doc/xie_cv.pdf)</u> by November 2021 and <u>[Google Scholar]( https://scholar.google.com/citations?user=kFFMzkQAAAAJ&amp;amp;hl=en)</u>.
 
