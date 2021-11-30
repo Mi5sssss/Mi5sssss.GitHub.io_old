@@ -32,9 +32,9 @@ xr@ieee.org
 
 **News**
 
-- Currently do Neural Architecture Search research with [<u>Dr. Ngai Wong</u>]( https://www.eee.hku.hk/~nwong/)  of HKU.
-- A paper was accepted by [<u>IEEE ICTA 2021</u>](http://www.ieee-icta.net/).
-- Submitted a patent.
+- 11/2021 Currently do Neural Architecture Search research with [<u>Dr. Ngai Wong</u>]( https://www.eee.hku.hk/~nwong/)  of HKU.
+- 09/2021 A paper was accepted by [<u>IEEE ICTA 2021</u>](http://www.ieee-icta.net/).
+- 06/2021 Submitted a patent.
 
 ---
 
