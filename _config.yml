@@ -22,7 +22,7 @@ owner:
   bio: "Photographer, Electronic design automation" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/rick.jpg # 浏览器地址栏小图标，可自定义更改
+gavatar: img/dolphin.gif # 浏览器地址栏小图标，可自定义更改
 favicon: img/rick.jpg # 浏览器地址栏小图标，可自定义更改
 
 douban_username: xierui1841
